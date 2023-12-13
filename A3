@@ -6,7 +6,8 @@ password = 'cisco123!'
 
 
 commands = [
-    " echo configure terminal",
+    "echo enable",
+    "echo configure terminal",
     "echo no ip domain lookup",
     "echo router ospf 101",
     "echo network 192.168.1.0 0.0.0.255 area 0",
